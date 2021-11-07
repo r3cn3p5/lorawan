@@ -15,3 +15,10 @@ AT+CAPPKEY=08494BBE54CE153A0D5AA1B24508F7C6
 
 AT+CJOIN=1,1,10,8
 ```
+## A5085BI USB to TTL adaptor
+
+```
+screen /dev/cu.usbserial-A50285BI 19200
+```
+
+To quit the screen app, type CTRL-A, then CTRL-\
