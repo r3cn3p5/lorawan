@@ -123,7 +123,7 @@ class ASR6501:
         if argument is not None:
             line += '='
             line += argument
-   
+
         self._write_line(line)
         
         self._read_expected_line('OK')

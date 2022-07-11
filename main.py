@@ -1,11 +1,8 @@
 from cooperative_multitasking import Tasks
-from machine import UART
 from lora_states import NOT_JOINED, JOINING, JOINED, SENDING, SENT, RETRY
 from asr6501 import ASR6501
-from machine import Pin
 
-from machine import Pin
-from neopixel import NeoPixel
+
 
 gpio27 = Pin(27, Pin.OUT)
 neopixels = NeoPixel(gpio27, 1)
